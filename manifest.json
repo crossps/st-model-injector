@@ -1,0 +1,12 @@
+{
+    "display_name": "Model Injector",
+    "loading_order": 1,
+    "requires": [],
+    "optional": [],
+    "js": "index.js",
+    "css": "style.css",
+    "author": "crossps",
+    "version": "1.0.0",
+    "homePage": "https://github.com/crossps/st-model-injector",
+    "auto_update": true
+}
