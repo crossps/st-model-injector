@@ -1,6 +1,7 @@
 /**
  * Model Injector - add model IDs to SillyTavern's hardcoded Chat Completion
- * dropdowns (Claude, Vertex AI, Google AI Studio, OpenAI, DeepSeek, xAI)
+ * dropdowns (Claude, Vertex AI, Google AI Studio, OpenAI, DeepSeek, xAI,
+ * Z.ai)
  * without waiting for an ST update.
  *
  * Optional "treat as": ST gates thinking / caching / sampling behaviour on
@@ -20,6 +21,7 @@ const SOURCES = {
     openai: { label: 'OpenAI', select: '#model_openai_select' },
     deepseek: { label: 'DeepSeek', select: '#model_deepseek_select' },
     xai: { label: 'xAI', select: '#model_xai_select' },
+    zai: { label: 'Z.ai (GLM)', select: '#model_zai_select' },
 };
 
 let pluginOnline = false;

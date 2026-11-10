@@ -2,7 +2,7 @@
 
 Add new model IDs to SillyTavern's Chat Completion model dropdowns yourself, instead of waiting for an ST update.
 
-Supported dropdowns: **Claude, Vertex AI, Google AI Studio, OpenAI, DeepSeek, xAI**.
+Supported dropdowns: **Claude, Vertex AI, Google AI Studio, OpenAI, DeepSeek, xAI, Z.ai (GLM)**.
 (OpenRouter and Custom already fetch or accept any model, so they don't need this.)
 
 ## Install (PC and phone/Termux)
@@ -13,7 +13,7 @@ In SillyTavern: **Extensions → Install extension**, paste:
 https://github.com/crossps/st-model-injector
 ```
 
-Then open **Extensions → Model Injector** and click **Add model**. Pick a source, type the model ID (e.g. `claude-opus-5-1`), and it appears at the top of that source's model dropdown under **Custom (Model Injector)**. It also works with connection profiles and survives reloads.
+Then open **Extensions → Model Injector** and click **Add model**. Pick a source, type the model ID (e.g. `claude-opus-5-1` or `glm-5.3`), and it appears at the top of that source's model dropdown under **Custom (Model Injector)**. It also works with connection profiles and survives reloads.
 
 ## "Treat as" (optional, needs the server plugin)
 
